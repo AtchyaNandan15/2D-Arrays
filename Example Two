@@ -44,7 +44,7 @@ int w;
     //print the line
     for(i=0;i<5;i++) {
     
-    //putting a linr
+    //putting a line
     cout<<"\n";
     cout<<i+1<<"\t|";
     

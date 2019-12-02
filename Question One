@@ -7,41 +7,63 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
+#include<math.h>
 
 using namespace std;
 
 int main()
 {
-   
-   
-   int table[6][8];
-   int i;
-   int w;
-   
-    for(i=0;i<6;i++) {
-    for(w=0;w<8;w++) {
+
+
+//delclare variables
+
+int mult[7][7];
+int i;
+int w;
+
+
+
         
-     table[i][w]=(i+1)*(w+1);
+     for(i=0;i<7;i++) {
+    
+    
+     for(w=0;w<7;w++) {
+        
+     
+        mult[i][w]=pow(i+2, w);
+        
+        
+        
     }
-   
-       
-    }
-   
-   
-    for(i=0;i<6;i++) {
-    for(w=0;w<8;w++) {
- 
- 
-    }
-       cout<<table[i][w]<<"\t";
-       
-    }
-   
-   
-   
-   
-   
-   
+    
+     }
+
+     cout<<"\t0\t1\t2\t3\t4\t5\t6";
+     
+
+     for(i=0;i<7;i++) {
     
    
+    cout<<"\n";
+    cout<<i+2<<"";
+    
+    for(w=0;w<7;w++) {
+        
+        
+        
+        cout<<"\t"<<mult[i][w];
+        
+        
+        
+    }
+    
+    
+    
+
+    
+    
 }
+
+}
+    
+ 

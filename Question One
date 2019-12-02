@@ -20,7 +20,8 @@ int main()
 int mult[7][7];
 int i;
 int w;
-
+int num1;
+int num2;
 
 
         
@@ -56,13 +57,22 @@ int w;
         
         
     }
+     }
+    
+    cout<<"\nEnter a number";
+    cin>>num1;
+    
+    cout<<"\nEnter a number";
+    cin>>num2;
+    
+  cout<<mult[num1- 2][num2];
     
     
     
 
     
     
-}
+
 
 }
     

@@ -1,0 +1,40 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+  
+
+  int s1,s1siblings,s1cousins,s1friends;
+  int s2,s2siblings,s2cousins,s2friends;
+  int s3,s3siblings,s3cousins,s3friends;
+  int s4,s4siblings,s4cousins,s4friends;
+  int s5,s5siblings,s5cousins,s5friends;
+  int i;
+  int w;
+  
+  
+  int students[2][25]={{s1,s2,s3,s4,s5},{s1siblings,s1cousins,s1friends,
+      s2siblings,s2cousins,s2friends,
+      s3siblings,s3cousins,s3friends,
+      s4siblings,s4cousins,s4friends,
+      s5siblings,s5cousins,s5friends,
+  }};
+  
+ 
+}
+  
+  
+  
+  
+  

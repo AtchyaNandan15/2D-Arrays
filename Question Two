@@ -15,10 +15,36 @@ int main()
 
  string province;
  string capitals;
- string places [province][capitals]={{"Alberta","British Columbia","Manitoba","New Brunswick", "Newfoundland and Labrador","Northwest Territories", "Nova Scotia", "Nunavut","Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"},{"Edmonton","Victoria","Winnipeg","Fredericton","St. John’s","Yellowknife","Halifax","Iqaluit","Toronto","Charlottetown","Quebec","Regina","Whitehorse"}};                                                               
+ string places [13][13]={{" Alberta"," British Columbia"," Manitoba "," New Brunswick ", " Newfoundland and Labrador "," Northwest Territories ", " Nova Scotia ", " Nunavut "," Ontario ", " Prince Edward Island ", " Quebec ", " Saskatchewan ", " Yukon "},{" Edmonton "," Victoria "," Winnipeg "," Fredericton "," St. John’s "," Yellowknife "," Halifax "," Iqaluit "," Toronto "," Charlottetown "," Quebec "," Regina "," Whitehorse "}};                                                               
+ int i;
+ int w;
+ int j;
+ int len;
+
+
+  for(i=0;i<13;i++) {
  
 
- 
- 
+      for(w=0;w<13;w++){
+
+     places[i][w];
+          
+      }
+       
+        
+  
+
+  
+  }
+
+   //cout<<"Enter the capital of Alberta";
+     //cin>>places[1][1];
+     
+     
+     cout<<places[1][3];
+     cout<<places[0][1];
+    
+    
+}
  
 

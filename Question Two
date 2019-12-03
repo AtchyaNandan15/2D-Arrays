@@ -12,14 +12,13 @@ using namespace std;
 
 int main()
 {
+
+ string province;
+ string capitals;
+ string places [province][capitals]={{"Alberta","British Columbia","Manitoba","New Brunswick", "Newfoundland and Labrador","Northwest Territories", "Nova Scotia", "Nunavut","Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"},{"Edmonton","Victoria","Winnipeg","Fredericton","St. John’s","Yellowknife","Halifax","Iqaluit","Toronto","Charlottetown","Quebec","Regina","Whitehorse"}};                                                               
  
- string place[province]={{"Alberta","British Columbia","Manitoba","New Brunswick", "Newfoundland and Labrador","Northwest Territories", "Nova Scotia", "Nunavut","Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"},{"Edmonton","Victoria","Winnipeg","Fredericton","St. John’s","Yellowknife","Halifax","Iqaluit","Toronto";                                                               
- 
- 
- [capital];
- 
- 
- 
+
  
  
-}
+ 
+

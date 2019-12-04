@@ -27,25 +27,21 @@ int main()
       for(w=0;w<3;w++) {
           students[i][w];
           
+          siblings = students[i][0];
           
            cout<<" Student " <<i+1<< " Enter the number of siblings, cousins and friends you have ["<<i<<"]["<<w<<"] ";
            cin>>students[i][w];
            
+          total=  total +students[i][w]++;
         
+      
           
       }
-      cout<<"\n";
-      
   }
       
-      //cout<<students[4][2];
       
-      total=  total + students[i][1];
-      
-      cout<<"\n"<<total<<"\n";
-      
-      
-  
+  cout<<"\n"<<total<<"\n";      
+
   
 }
   

@@ -21,7 +21,7 @@ int main()
   int students[5][3];
   int i;
   int w;
-  int total=0;
+  int total;
   
   for(i=0;i<5;i++) {
       for(w=0;w<3;w++) {
@@ -40,9 +40,9 @@ int main()
       
       //cout<<students[4][2];
       
-      total=  total + students[i][0];
+      total=  students[i][1] + students[i][1];
       
-      cout<<total<<"\n";
+      cout<<"\n"<<total<<"\n";
       
       
   

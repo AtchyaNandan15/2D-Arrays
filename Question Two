@@ -12,8 +12,7 @@
                     string capital.......................................the users input
                     int correct............................................the counter for the correct answers
         
-                
-
+        
 ********************************************************************************************************************/
 
 #include <iostream>
@@ -24,15 +23,12 @@ using namespace std;
 int main()
 {
 
- string province;
- string capitals;
+
+
  string places [2][13]={{"Alberta","British Columbia","Manitoba","New Brunswick", "Newfoundland and Labrador","Northwest Territories", "Nova Scotia", "Nunavut","Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"},{"Edmonton","Victoria","Winnipeg","Fredericton","St. John’s","Yellowknife","Halifax","Iqaluit","Toronto","Charlottetown","Quebec","Regina","Whitehorse"}};                                                               
  int i;
  int w;
- int j;
- int len;
  int random;
- int random2;
  int t;
  string capital;
  int correct;

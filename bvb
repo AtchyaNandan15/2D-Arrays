@@ -1,10 +1,24 @@
-/******************************************************************************
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date: December 5th 2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use 2D arrays                                                  
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int student.....................................the 2D array
+                    int i........................................variable for the loop
+                    int w..........................................variable for the loop
+                    int moreSiblings......................................the person with the most siblings
+                    int lessCousins..............................................the person with the least cousins
+                    int student1.......................................the total people for student one
+                    int student2............................................the total people for student two
+                    int student3.....................................the total people for student three
+                    int student4........................................the total people for student four
+                    int student5..........................................the total peoplee for student five
+                    int most......................................the student that entered the most people
+        
+                
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+********************************************************************************************************************/
 
 #include <iostream>
 #include <string>

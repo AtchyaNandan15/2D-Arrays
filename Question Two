@@ -67,7 +67,7 @@ int main()
   
     }
    
-   cout<<" Your average is " <<10/correct<< "\n";
+   cout<<" Your mark is " <<10/correct<< " out of 10\n";
     
 }
  

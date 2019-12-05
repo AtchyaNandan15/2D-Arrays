@@ -1,0 +1,228 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+  
+  int siblings;
+  int cousins;
+  int friends;
+  
+  int students[5][3];
+  int i;
+  int w;
+  int total=0;
+  int moreSiblings=0,moreSiblings1=0,moreSiblings2=0,moreSiblings3=0,moreSiblings4=0;
+  int lessCousins=0,lessCousins1=0,lessCousins2=0,lessCousins3=0,lessCousins4=0;
+  int student1;
+  int student2;
+  int student3;
+  int student4;
+  int student5;
+  int most;
+  
+  string students1= "student1";
+  string students2= "student2";
+  string students3= "student3";
+  string students4= "student4";
+  string students5= "student5";
+  string more;
+ 
+  for(i=0;i<5;i++) {
+      for(w=0;w<3;w++) {
+         
+          students[i][w];
+            
+      }
+      
+  } 
+  
+  for(i=0;i<5;i++) {
+                
+     
+          
+           cout<<" Student " <<i+1<< " Enter the number of siblings you have: ";
+           cin>>students[i][1];
+           
+           cout<<" Student " <<i+1<< " Enter the number of cousins you have: ";
+           cin>>students[i][2];
+           
+           cout<<" Student " <<i+1<< " Enter the number of friends you have: ";
+           cin>>students[i][3]; 
+           
+           cout<<"\n";
+           
+          
+  }
+        
+  
+  cout<<" \nThe total number of siblings from all five students is ";   
+  cout<<""<<students[0][1]+students[1][1]+students[2][1]+students[3][1]+students[4][1]<<"";  
+  
+  cout<<" \nThe total number of cousins from all five students is ";   
+  cout<<""<<students[0][2]+students[1][2]+students[2][2]+students[3][2]+students[4][2]<<"";  
+  
+  cout<<" \nThe total number of friends from all five students is ";   
+  cout<<""<<students[0][3]+students[1][3]+students[2][3]+students[3][3]+students[4][3]<<"";  
+  
+  
+  student1 = students[0][1]+students[0][2]+students[0][3];
+  student2 = students[1][1]+students[1][2]+students[1][3];
+  student3 = students[2][1]+students[2][2]+students[2][3];
+  student4 = students[3][1]+students[3][2]+students[3][3];
+  student5 = students[4][1]+students[4][2]+students[4][3];
+  
+  
+  
+  cout<<"\nThe total number of people student 1 eneterd is ";
+  cout<<""<<student1<<"";
+  
+  cout<<"\nThe total number of people student 2 eneterd is ";
+  cout<<""<<student2<<"";
+  
+  cout<<"\nThe total number of people student 3 eneterd is ";
+  cout<<""<<student3<<"";
+  
+  cout<<"\nThe total number of people student 4 eneterd is ";
+  cout<<""<<student4<<"";
+  
+  cout<<"\nThe total number of people student 5 eneterd is ";
+  cout<<""<<student5<<"";
+  
+  
+
+if (students[0][1]>students[1][1]){
+   moreSiblings1 = students[0][1];
+   //more=students1;
+   }
+else{
+   moreSiblings1 = students[1][1];
+   //more=students2;
+}
+
+if (moreSiblings1 < students[2][1]) {
+   moreSiblings2 = students[2][1];
+   //more=students3;
+}
+ else {
+    moreSiblings2 = moreSiblings1;
+   // more=students2; 
+ }
+ 
+if (moreSiblings2 < students[3][1]) {
+   moreSiblings3 = students[3][1];
+  // more=students4;
+}
+else {
+   moreSiblings3 = moreSiblings2;
+
+}
+
+if (moreSiblings3 < students[4][1]) {
+   moreSiblings4 = students[4][1];
+  // more=students5;
+}
+else {
+    moreSiblings4 = moreSiblings3;
+}
+    
+    
+         
+         
+ cout<<"\n********************\n";
+ cout<<"\n The person with the most siblings is\n";
+ cout<<moreSiblings4<<"\n";
+// cout<<"\n"<<more<<"\n";
+ cout<<"\n********************\n";
+ 
+ 
+ if (students[0][2]>students[1][2]){
+   lessCousins1 = students[0][2];
+   }
+
+ else{
+   lessCousins1 = students[1][2];
+ }
+
+ if (lessCousins1 > students[2][2]) {
+   lessCousins2 = students[2][2];
+ }
+ else {
+   lessCousins2 = lessCousins1;
+ }
+
+ if (lessCousins2 > students[3][2]) {
+    lessCousins3 = students[3][2];
+ }
+else {
+    lessCousins3 = lessCousins2;
+}
+
+ if (lessCousins3 > students[4][2]) {
+   lessCousins4 = students[4][2];
+ } 
+ else {
+   lessCousins4 =   lessCousins3;
+ }
+         
+         
+         
+         
+ cout<<"********************\n";
+ cout<<"\nThe student with the least amount of cousins is\n";
+ cout<<lessCousins4<<"\n";
+ cout<<"********************\n";
+      
+/*     
+  if (student1>student2){
+   most = student1;
+   }
+
+  else{
+   most = student2;
+ }
+
+  if (most < student3) {
+    most = student3;
+ }
+  else {
+     most = most;
+  }
+  
+  if (most < student4) {
+    most = student4;
+  }
+    else {
+    most = most;
+    }
+
+  if (most < student5) {
+   most = student5;
+  }
+  else {
+      most = student5;
+  }
+         
+         
+ cout<<"\n********************\n";
+ cout<<"\nThe person who listed the most is\n";
+ cout<<most<<"\n";
+ cout<<"\n********************\n";
+ 
+*/
+
+       
+  
+}
+  
+  

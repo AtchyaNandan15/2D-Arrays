@@ -1,10 +1,19 @@
-/******************************************************************************
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date: December 5th 2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use 2D arrays                                                  
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int mult.....................................the 2D array for the table
+                    int i........................................variable for the loop
+                    int w..........................................variable for the loop
+                    int random......................................makes a random number
+                    int num1..............................................one of the numbers to mulitiply with 
+                    int num2...........................................the other number to multiply with
+        
+                
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+********************************************************************************************************************/
 
 #include <iostream>
 #include<math.h>
